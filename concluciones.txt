@@ -1,8 +1,12 @@
-Este proyecto permitió validar tanflujos E2E de interfaz como pruebas de API utilizando Cypress, 
-asegurando el correcto funcionamiento de los principales escenarios de la aplicación.
-La automatización del login mediante comandos personalizados facilitó la reutilización de código 
-y mejoró la mantenibilidad de los tests.
-Por otro lado, las pruebas de API permitieron validar respuestas, estructura y datos de endpoints 
-REST de forma independiente a la interfaz.
-En conjunto, el proyecto demuestra una correcta organización de pruebas, buenas prácticas 
-de automatización y un enfoque orientado a escenarios reales de testing
+# Conclusiones del proyecto
+
+Este proyecto permitió automatizar escenarios reales tanto de interfaz como de servicios REST 
+utilizando Cypress como herramienta principal.
+
+En la parte de UI, se validó el flujo completo de compra en SauceDemo, asegurando que las 
+funcionalidades críticas del sistema se comporten correctamente desde el login hasta la confirmación final de la orden.
+El uso de comandos personalizados ayudó a mejorar la reutilización y mantenibilidad de los tests.
+
+En la parte de API, se implementó un flujo CRUD completo sobre el recurso Users de la API 
+PetStore Swagger. Las pruebas permitieron validar la creación, consulta, actualización y eliminación de usuarios, 
+utilizando datos dinámicos y validaciones sobre las respuestas del servicio.
